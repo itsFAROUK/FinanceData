@@ -1,12 +1,13 @@
-import React from "react"
-import Navbar from "./components/Navbar"
+import Header from "./components/Header"
+import Hero from "./components/Hero"
 
 function App() {
 
   return (
-    <div>
-      <Navbar />
-    </div>
+    <>
+      <Header />
+      <Hero />
+    </>
   )
 }
 
